@@ -3,7 +3,7 @@ Smart University Profile
 Smart University Profile — это интерактивная страница университета, которая работает как персональный admissions-консультант.
 Она анализирует профиль абитуриента и помогает понять, подходит ли университет, какие программы выбрать, какие документы нужны и какие шаги предпринять для поступления.
 
-  2. Problem Statement
+2. Problem Statement
 Обычные страницы университетов:
 
 дают «сухую» информацию без объяснений
@@ -17,7 +17,7 @@ Smart University Profile — это интерактивная страница 
 не понимает свои шансы
 не знает, что делать дальше
 
-  3. Solution
+3. Solution
 Проект решает проблему через персонализацию:
 
 анализирует GPA, IELTS, SAT и интересы студента
@@ -29,7 +29,7 @@ Smart University Profile — это интерактивная страница 
 
 Страница становится активным помощником, а не просто источником информации.
 
-   4. Features
+4. Features
 Авторизация и регистрация (JWT)
 Профиль студента (академические данные, интересы, бюджет)
 AI Fit Score (оценка совместимости)
@@ -46,7 +46,7 @@ Responsive дизайн (mobile + desktop)
 Dark mode
 Многоязычность (EN / RU)
 
-  5. Tech Stack
+5. Tech Stack
 Frontend:
 React + TypeScript
 Tailwind CSS
@@ -69,28 +69,28 @@ Deployment:
 Vercel (frontend)
 Railway (backend + database)
 
-   6. Data Explanation
+6. Data Explanation
 В проекте используются:
 
 Mock данные (для университетов и программ)
 Пользовательские данные (сохраняются в базе)
 AI-ответы (генерируются через OpenAI API)
 
-   7. Screenshots
+7. Screenshots
 Добавь сюда скриншоты:
 
 Main Page
 Profile Page
 AI Assistant
 
-  8. Limitations
+8. Limitations
 Ограниченное количество университетов (mock data)
 AI может давать неточные рекомендации
 Нет полноценной интеграции с реальными базами университетов
 Ограниченная система уведомлений
 Нет mobile app (только web)
 
-  9. Future Improvements
+9. Future Improvements
 Подключение реальной базы университетов
 Улучшенный AI (персональные стратегии поступления)
 Полноценный application tracking
